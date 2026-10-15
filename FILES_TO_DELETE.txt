@@ -1,0 +1,10 @@
+_news/announcement_1.md
+_news/announcement_2.md
+_news/announcement_3.md
+_news/announcement_4.md
+_news/announcement_5.md
+_news/announcement_6.md
+_news/announcement_7.md
+_news/announcement_8.md
+_news/announcement_9.md
+assets/pdf/MusaJTaib_Resume.pdf

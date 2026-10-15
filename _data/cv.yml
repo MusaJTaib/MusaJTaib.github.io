@@ -2,96 +2,142 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Musa J. Taib
+    - name: Location
+      value: Calgary, Alberta, Canada
+    - name: Email
+      value: musa.taib@ucalgary.ca
     - name: Languages
-      value: English, German
+      value: English, Urdu
+
+- title: Research Interests
+  type: list
+  contents:
+    - Security of agentic AI systems
+    - Privacy preserving machine learning and federated learning
+    - Trustworthy AI
+    - Machine learning for administrative and health data
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D., Electrical and Computer Engineering (starting January 2027)
+      institution: University of Calgary, Schulich School of Engineering, Calgary, Canada
+      year: 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Supervisor: Dr. Steve Drew"
+        - "Proposed research: security of AI agents"
+        - Four year doctoral funding package
+    - title: M.Sc., Electrical Engineering (thesis based)
+      institution: University of Calgary, Schulich School of Engineering, Calgary, Canada
+      year: 2021 to 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 4.00 / 4.00"
+        - "Supervisor: Dr. Geoffrey Messier"
+        - "Thesis: Peeking Through the Windows: Hyperparameters, Administrative Data, and Selective Windowing"
+    - title: Bachelor of Electrical Engineering
+      institution: National University of Sciences and Technology (NUST), Islamabad, Pakistan
+      year: 2017 to 2021
+      description:
+        - "CGPA: 3.65 / 4.00, Minor in Business Studies"
+        - "Final year project: generative adversarial networks for network intrusion detection, Robotics and Machine Intelligence (ROMI) Lab, supervised by Dr. Wajahat Hussain"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate
+      institution: University of Calgary, Department of Electrical and Software Engineering
+      year: 2026 to present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conducting a systematic literature review on the privacy and security of mobile health applications, including writing the review protocol
+        - Researching qualitative codebook merging using in context learning across several large language models
+        - Collecting Android app metadata from the Google Play Store and classifying apps as mHealth or non mHealth with an open source language model
+        - Preparing a manuscript, including methods documentation and analysis of results
+    - title: Data Scientist (contract, through EAMEC Canada Inc.)
+      institution: Suncor Energy, Calgary, Canada
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Configured a heat exchanger fouling prediction model in Azure
+        - Ported code to Databricks and a new enterprise data platform using SQL, Python and PySpark
+        - Built an automated cycle counting pipeline in Azure Machine Learning that combines historian data with predictive models to optimize maintenance schedules
+        - Maintained Power BI dashboards powered by Python based Azure Machine Learning pipelines, and built PI Vision dashboards for heat exchanger performance and backflush cycle detection
+    - title: Data Scientist (contract, through S.i. Systems)
+      institution: Suncor Energy, Calgary, Canada
+      year: 2024
       description:
+        - Built statistical models in Python and R to support asset performance using Azure Machine Learning
+        - Developed and deployed AI models and data pipelines in Azure, integrating regression and decay models with preprocessing and postprocessing steps
+        - Built interactive dashboards in Power BI and PI Vision
+    - title: Data Science Research Assistant
+      institution: University of Calgary, Department of Electrical and Software Engineering
+      year: 2023 to 2024
+      description:
+        - Developed Python data algorithms for confidential homelessness administrative datasets from multiple agencies under strict data privacy protocols
+        - Built machine learning models, including regression models, neural networks, decision trees and clustering, to analyze confidential datasets
+        - Led the research and experiments for a privacy preserving federated learning framework that lets Calgary agencies train a shared model to predict homelessness risk without sharing their records (AIES 2024)
+    - title: Graduate Teaching Assistant
+      institution: University of Calgary, Department of Electrical and Software Engineering
+      year: 2022 to 2023
+      description:
+        - Three terms (Winter 2022, Fall 2022, Winter 2023)
+        - Led labs on topics ranging from machine learning to network protocols, mentored student project teams and administered technical exams
+    - title: Final Year Project, Robotics and Machine Intelligence (ROMI) Lab
+      institution: National University of Sciences and Technology (NUST), Islamabad, Pakistan
+      year: 2020 to 2021
+      description:
+        - Used generative adversarial networks to generate synthetic network traffic for a neural network based intrusion detection system, supervised by Dr. Wajahat Hussain
+    - title: Research Intern, Real-time Intelligent Secure Computing (RISC) Lab
+      institution: National University of Sciences and Technology (NUST), Islamabad, Pakistan
+      year: 2019
+      description:
+        - Worked on RTL simulation of a RISC-V core, supervised by Dr. Rehan Ahmed
+    - title: Summer Intern
+      institution: Allied Engineering & Services, Lahore, Pakistan
+      year: 2016
+      description:
+        - Worked in the parts and service sales system
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Volunteering
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Volunteer Intern
+      institution: Mental Health Centre, Peshawar, Pakistan
+      year: 2018
+      description:
+        - Worked with children with special needs, both in the classroom and at a community level
+
+- title: Publications
+  type: list
+  contents:
+    - "M. Taib, J. Wu, S. Drew and G. G. Messier. Enhancing Equitable Access to AI in Housing and Homelessness System of Care through Federated Learning. AAAI/ACM Conference on AI, Ethics, and Society (AIES), 2024."
+    - "M. Taib and G. G. Messier. Efficient Observation Time Window Segmentation for Administrative Data Machine Learning. IEEE Access, 2024."
+    - "M. Taib. Peeking Through the Windows: Hyperparameters, Administrative Data, and Selective Windowing. M.Sc. thesis, University of Calgary, 2023."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2027
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Four year doctoral funding package and International Graduate Tuition Award, University of Calgary
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Third prize, CANIS Hackathon, University of Calgary
+    - year: 2021 to 2023
+      items:
+        - International Graduate Tuition Award, University of Calgary
+    - year: 2017
+      items:
+        - Gold medal for the highest A Level grades in the engineering section, Edwardes College, Peshawar
 
-- title: Academic Interests
-  type: nested_list
+- title: Technical Skills
+  type: list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - "<u>Programming:</u> Python, R, SQL, C, C++, MATLAB"
+    - "<u>Machine learning:</u> PyTorch, TensorFlow, scikit learn, federated learning, large language models"
+    - "<u>Data platforms:</u> Azure Machine Learning, Databricks, PySpark, Power BI, PI Vision"
+    - "<u>Tools:</u> Git, Linux, high performance computing, Docker"
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Hobbies:</u> reading comics, cooking, table tennis, anime and Dota 2"
