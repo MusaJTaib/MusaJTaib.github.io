@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: Knock on the door and it shall be opened for you
+subtitle: "Knock on the door and it shall be opened for you (Matthew 7:7)"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>ICT Building</p>
-    <p>856 Campus Pl NW</p>
-    <p>Calgary, Alberta</p>
+    <p>ICT Building, University of Calgary</p>
+    <p>2500 University Dr NW</p>
+    <p>Calgary, AB T2N 1N4</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts

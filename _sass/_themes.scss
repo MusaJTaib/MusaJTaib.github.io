@@ -3,19 +3,21 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color}; /* Light theme background (Green) */
-  --global-code-bg-color: #{$code-bg-color-light}; /* Light theme code background */
-  --global-text-color: #000000; /* Light theme text color set to black */
-  --global-text-color-light: #{$grey-color}; /* Light theme light text color */
-  --global-theme-color: orange; /* Light theme primary color (Orange) */
-  --global-hover-color: orange; /* Light theme hover color (Orange) */
-  --global-hover-text-color: #{$black-color}; /* Light theme hover text color */
-  --global-footer-bg-color: #{$grey-color-dark}; /* Light theme footer background */
-  --global-footer-text-color: #{$grey-color-light}; /* Light theme footer text color */
-  --global-footer-link-color: #{$black-color}; /* Light theme footer link color */
-  --global-distill-app-color: #{$grey-color}; /* Light theme app color */
-  --global-divider-color: rgba(0,0,0,.1); /* Light theme divider color */
-  --global-card-bg-color: #{$black-color}; /* Light theme card background */
+  --global-bg-color: #ffffff; /* Light theme background: paper */
+  --global-code-bg-color: rgba(23, 32, 51, 0.05); /* Light theme code background */
+  --global-text-color: #172033; /* Light theme text: navy ink */
+  --global-text-color-light: #5a6478; /* Light theme secondary text: slate */
+  --global-theme-color: #c8102e; /* Light theme accent: Calgary red */
+  --global-hover-color: #c8102e; /* Light theme hover color */
+  --global-hover-text-color: #ffffff; /* Light theme hover text color */
+  --global-footer-bg-color: #172033; /* Light theme footer background */
+  --global-footer-text-color: #c3c9d6; /* Light theme footer text color */
+  --global-footer-link-color: #ffffff; /* Light theme footer link color */
+  --global-distill-app-color: #5a6478; /* Light theme app color */
+  --global-divider-color: #e2e5eb; /* Light theme divider color */
+  --global-card-bg-color: #f5f6f8; /* Light theme card background */
+  --global-mark-color: #ffcd00; /* Highlighter gold, used for text selection */
+  --global-redact-color: #172033; /* Bar that reveals the name on load */
 
   --global-tip-block: green; /* Light theme tip block color (Green) */
   --global-tip-block-bg: #e2f5ec; /* Light theme tip block background */
@@ -31,12 +33,12 @@
   --global-danger-block-title: #c00; /* Light theme danger block title color */
 
   .fa-sun {
-    display : none;
+    display: none;
   }
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 
   .repo-img-light {
@@ -47,21 +49,22 @@
   }
 }
 
-
-html[data-theme='dark'] {
-  --global-bg-color: #212121; /* Dark theme background (Dark Orange) */
+html[data-theme="dark"] {
+  --global-bg-color: #131a2a; /* Dark theme background: deep navy */
   --global-code-bg-color: #{$code-bg-color-dark}; /* Dark theme code background */
-  --global-text-color: #ffa500; /* Dark theme text color (Orange) */
-  --global-text-color-light: #ffa500; /* Dark theme light text color (Orange) */
-  --global-theme-color: #ffa500; /* Dark theme primary color (Orange) */
-  --global-hover-color: #ffa500; /* Dark theme hover color (Orange) */
-  --global-hover-text-color: #{$white-color}; /* Dark theme hover text color */
-  --global-footer-bg-color: #212121; /* Dark theme footer background (Dark Orange) */
-  --global-footer-text-color: #ffa500; /* Dark theme footer text color (Orange) */
-  --global-footer-link-color: #{$black-color}; /* Dark theme footer link color */
-  --global-distill-app-color: #ffa500; /* Dark theme app color (Orange) */
-  --global-divider-color: #424246; /* Dark theme divider color */
-  --global-card-bg-color: #{$grey-900}; /* Dark theme card background */
+  --global-text-color: #e6e9f0; /* Dark theme text color */
+  --global-text-color-light: #9aa3b5; /* Dark theme secondary text */
+  --global-theme-color: #ff6b7a; /* Dark theme accent */
+  --global-hover-color: #ff6b7a; /* Dark theme hover color */
+  --global-hover-text-color: #131a2a; /* Dark theme hover text color */
+  --global-footer-bg-color: #1b2336; /* Dark theme footer background */
+  --global-footer-text-color: #9aa3b5; /* Dark theme footer text color */
+  --global-footer-link-color: #e6e9f0; /* Dark theme footer link color */
+  --global-distill-app-color: #9aa3b5; /* Dark theme app color */
+  --global-divider-color: rgba(230, 233, 240, 0.14); /* Dark theme divider color */
+  --global-card-bg-color: #1b2336; /* Dark theme card background */
+  --global-mark-color: #ffd84d; /* Highlighter gold, used for text selection */
+  --global-redact-color: #e6e9f0; /* Bar that reveals the name on load */
 
   --global-tip-block: green; /* Dark theme tip block color (Green) */
   --global-tip-block-bg: #e2f5ec; /* Dark theme tip block background */
@@ -79,10 +82,10 @@ html[data-theme='dark'] {
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
   .fa-moon {
-    display : none;
+    display: none;
   }
 
   .repo-img-light {
